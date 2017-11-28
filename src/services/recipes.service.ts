@@ -38,7 +38,7 @@ export class RecipesService {
     }
 
     createFirebaseUrl (token: string) {
-        const fbUrl = 'https://ionic-recipebook-e4573.firebaseio.com/';
+        const fbUrl = '';
         const fbNode = 'recipes-list.json';
 
         const userId = this.authService.getActiveUser().uid;
