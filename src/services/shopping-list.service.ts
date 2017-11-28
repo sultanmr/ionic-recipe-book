@@ -41,7 +41,7 @@ export class ShoppingListService {
     }
     
     createFirebaseUrl (token: string) {
-        const fbUrl = 'https://ionic-recipebook-e4573.firebaseio.com/';
+        const fbUrl = '';
         const fbNode = 'shopping-list.json';
 
         const userId = this.authService.getActiveUser().uid;
